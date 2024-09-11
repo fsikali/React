@@ -1,13 +1,27 @@
 import react from 'react'; 
-import ReactDOM from 'react-dom/client'; 
+import ReactDOM from 'react-dom/client';  
 
-const myArray = ['apple', 'banana', 'orange']; 
-const myList = myArray.map((item) => <p> {item} </p>)
+// Destructuring deeply nested objects  
 
-const root = ReactDOM.createRoot(document.getElementById('root')); 
-root.render(myList);  
+const vehicleOne = { 
+    brand: 'Ford', 
+    model: 'Mustang', 
+    type: 'car', 
+    year: '2021', 
+    color: 'red', 
+    registration: { 
+        country: 'Kenya', 
+        county: 'Nairobi', 
+        sub_county: 'Embakasi',
+    } 
+}
 
-// ReactDOM.render(myList, document.getElementById('root'));
+myVehicle(vehicleOne) 
 
+function myVehicle({model, registration: { country } }) {  
+    const message = 'My ' + model + ' is registered in ' + country + ' . '; 
 
+    const root = ReactDOM.createRoot(document.getElementById('root')); 
+    root.render(message);
+}
 
