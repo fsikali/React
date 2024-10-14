@@ -18,6 +18,6 @@ const message = 'My ' + type + ' is a ' + color + ' ' + brand + ' ' + model + '.
 
 const root = ReactDOM.createRoot(document.getElementById('root')); 
 root.render(message); 
-}  
+}   
 
 

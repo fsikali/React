@@ -20,4 +20,4 @@ if (x < 10) {
 const myElement = <h1> {text} </h1>; 
 
 const root = ReactDOM.createRoot(document.getElementById('root')); 
-root.render(myElement);
+root.render(myElement); 

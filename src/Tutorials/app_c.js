@@ -23,7 +23,7 @@ const myElement = (
 
        <h1> My name is FLEMMING SIKALI </h1>
     </>
-);
+); 
 
 const root = ReactDOM.createRoot(document.getElementById('root')); 
 root.render(myElement);  
