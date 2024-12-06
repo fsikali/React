@@ -1,7 +1,7 @@
 // Elements must be closed 
 // JSX follows XML rules, and therefore HTML elements must be properly closed 
 
-// Example - Close empty elements with />  
+// Example - Close empty elements with /> 
 
 import react from 'react'; 
 import ReactDOM from 'react-dom/client';
