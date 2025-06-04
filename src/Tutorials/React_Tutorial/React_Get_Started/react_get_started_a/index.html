@@ -1,0 +1,39 @@
+<!--
+--- React Getting Started
+- N/B: To use React in production, you need npm which is included with Node.js
+- To get an overview of what React is, you can write React code directly in HTML
+- But in order to use React in producion, you need npm and Node.js installed. 
+
+--- React Directly in HTML
+- The quickest way to start learning React is to write direclty in your HTML files.
+- Start by including three scripts, the first two let us write React code in out JS, and the
+  third, Babel, allows us to write JSX syntax and ES6 in older browsers.
+- Example: include three CDN's in your HTML file: 
+
+- This way of using React can be OK for testing purposes, but for production you will need to set up 
+  a React environment
+--> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <title>React Directly in HTML</title>
+</head>
+<body>
+  <div id="mydiv"></div> 
+
+  <script type="text/babel">
+    function Hello() { 
+      return <h1>Hello World!</h1>;
+    }
+
+    ReactDOM.render(<Hello />, document.getElementById('mydiv'))
+  </script>
+
+</body>
+</html>
