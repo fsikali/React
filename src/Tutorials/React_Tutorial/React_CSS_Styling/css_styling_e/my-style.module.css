@@ -1,0 +1,16 @@
+/*
+--- CSS Modules
+- Another way of adding styles to your application is to use CSS Modules
+- CSS Modules are convenient for components that are placed in separate files.
+- N/B: The CSS inside a module is available only for the component that imported it, and you do not have
+       to worry about name conflicts.
+- Create the CSS module with the .module.css extension, example: my-style.module.css 
+- Create a new file called "my-style-module.css" and insert some CSS code in it:
+*/ 
+
+.bigblue {
+    color: DodgerBlue; 
+    padding: 40px; 
+    font-family: Sans-Serif; 
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+/*
+--- Styling React Using Sass
+-- What is Sass
+- Sass is a CSS pre-processor
+
+--- Can I use Sass?
+- If you use the create-react-app in your project, you can easily install and use Sass in your React projects
+- Install Sass by running this command in your terminal: > npm i sass
+- Now you are ready to include Sass files in your project!
+
+--- Create a Sass file
+- Create a Sass file the same way as you create CSS files, but Sass files have extension .scss
+- In Sasss files you can use variables and other Sass functions::after
+- my-sass.scss: Create a variable to define the color of the text:
+
+*/
+
+$myColor: red;
+
+h1 {
+    color: $myColor;
+}
