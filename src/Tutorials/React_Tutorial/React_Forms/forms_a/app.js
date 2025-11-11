@@ -11,6 +11,9 @@
 - We want to prevent this default behavior and let React control the form
 */
 
+import React from 'react'; 
+import ReactDOM from 'react-dom/client';
+
 function MyForm() {
     return (
         <form>

@@ -17,6 +17,3 @@ const myElement = <h1> My name is John Tech </h1>
 const root = ReactDOM.createRoot(document.getElementById('root')); 
 root.render(myElement); 
 
-
-const root = ReactDOM.createRoot(document.getElementById('root')); 
-root.render(myElement);

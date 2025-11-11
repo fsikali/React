@@ -5,5 +5,13 @@
 - Example: Display the Car component in the "root" element.
 */
 
+import React from 'react'; 
+import ReactDOM from 'react-dom/client'; 
+
+function Car() {
+    return <h2>Hi, I am driving a Car.</h2>;
+} 
+
 const root = ReactDOM.createRoot(document.getElementById('root')); 
 root.render(<Car />);
+

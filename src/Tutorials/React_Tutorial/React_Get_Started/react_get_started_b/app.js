@@ -11,11 +11,11 @@
 - Now you are ready to run your first real React application
 - Run this command to move to the my-react-app directory: cd my-react-app
 - Run this command to run the React application my-react-app: npm start
-- A new browser window will pop up with your newly created Reacted App!If not, open your browser and
+- A new browser window will pop up with your newly created React App!If not, open your browser and
   type localhost:3000 in the address bar.
 
 --- Modify the React Application
-- In my-react-app directory, inside the src folder, thare is a file called App.js, change the HTML content and
+- In my-react-app directory, inside the src folder, there is a file called App.js, change the HTML content and
   save the file.
 */ 
 

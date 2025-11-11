@@ -6,6 +6,9 @@
 - Try emptying the cars array:
 */
 
+import React from 'react';
+import ReactDOM from 'react-dom/client'; 
+
 function Garage(props) {
     const cars = props.cars;
     return (

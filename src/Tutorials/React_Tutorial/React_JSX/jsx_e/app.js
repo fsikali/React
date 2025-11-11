@@ -1,6 +1,6 @@
 /* 
 --- One Top Level Element
-- The HTML code must be wrapped in ONE to level element
+- The HTML code must be wrapped in ONE top level element
 - So if you like to write two paragraphs, you must put them inside a parent element, like a div element
 - Example: Wrap two paragraphs inside one DIV element:
 

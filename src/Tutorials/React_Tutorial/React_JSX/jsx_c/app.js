@@ -6,4 +6,16 @@
 - Example: Execute the expression 5 + 5: 
 */
 
-const myElement = <h1>React is {5 + 5} times better with JSX</h1>;
+import React from 'react'; 
+import ReactDOM from 'react-dom/client'; 
+
+const myElement = ( 
+  <di> 
+    <h1> React is {5 + 5} times better with JSX  </h1>  
+    <p> Hey there </p> 
+    <p>Hey I am coming home </p> 
+  </di>
+);
+
+const root = ReactDOM.createRoot(document.getElementById('root')); 
+root.render(myElement);

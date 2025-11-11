@@ -26,7 +26,7 @@ class Model extends Car {
     }
     show() {
         return this.present() + ', it is a ' + this.model
-    } 
+    }
 }
 
 const mycar = new Model("Ford", "Mustang"); 
