@@ -15,3 +15,15 @@ function FavoriteColor() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(<FavoriteColor />);
+
+function FavoriteColor() {
+    const[set, setColor] = useState("red"); 
+
+    return (
+        <> 
+        <h1>My favorite color is {color}!</h1> 
+        <button onClick={() => setColor("blue")}>Blue</button>
+        </>
+    )
+}
+
